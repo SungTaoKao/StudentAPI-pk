@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <button id="btnGetStudents">Get Students</button>
+    <pre id="preOutput"></pre>
+    <script src="Scripts/jquery-2.1.0.js"></script>
+    <script>
+        $(function(){
+            var getStudents = function () {
+                var url = "http://studentapi-pk.azurewebsites.net/api/students/";
+                $.get(url).always(showResponse);
+                return false;
+            };
+
+            var showResponse = function (object) {
+                $("#preOutput").text(JSON.stringify(object, null, 4));
+            };
+            $("#btnGetStudents").click(getStudents);
+        });
+    </script>
+</body>
+</html>
