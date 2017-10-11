@@ -127,3 +127,6 @@ C:\Users\Pkao\source\repos\StudentAPI\StudentAPI\obj\Debug\StudentAPI.dll
 C:\Users\Pkao\source\repos\StudentAPI\StudentAPI\obj\Debug\StudentAPI.pdb
 C:\Users\Pkao\source\repos\StudentAPI\StudentAPI\obj\Debug\StudentAPI.Migrations.Directory.InitialCreate.resources
 C:\Users\Pkao\source\repos\StudentAPI\StudentAPI\obj\Debug\StudentAPI.csproj.GenerateResource.Cache
+C:\Users\Pkao\source\repos\StudentAPI\StudentAPI\bin\System.Web.Cors.dll
+C:\Users\Pkao\source\repos\StudentAPI\StudentAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Pkao\source\repos\StudentAPI\StudentAPI\bin\System.Web.Http.Cors.xml
