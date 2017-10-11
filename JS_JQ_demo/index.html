@@ -18,9 +18,10 @@
 <pre id="preOutput"></pre>
 <script src="Scripts/jquery-3.2.1.js"></script>
 <script>
-    $(function () {
 
-        var accessToken = "";
+    var accessToken = "";
+
+    $(function () {
 
         var getStudents = function () {
             var url = "http://studentapi-pk.azurewebsites.net/api/students/";
@@ -43,7 +44,7 @@
         };
 
         var register = function () {
-            var url = "http://studentapi-pk.azurewebsites.net/api/account/register/";
+            var url = "http://studentapi-pk.azurewebsites.net/api/account/register";
             var data = $("#frmRegister").serialize();
             $.post(url, data).always(showResponse);
             return false;
